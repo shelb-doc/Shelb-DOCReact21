@@ -4,7 +4,7 @@ const Footer = () => {
 return (
     <div>
     <footer class="py-5 bg-gray-700 text-center text-white">
-        Tailwind is Awesome 😎
+        &copy; Shelby De Oliveira Cignetti 2021
     </footer>
     </div>
 );
