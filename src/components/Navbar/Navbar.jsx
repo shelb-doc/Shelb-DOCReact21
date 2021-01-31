@@ -1,53 +1,54 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
+import "./Navbar.css";
 
-const Navbar = () => {
-return (
-    <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-purple-500 mb-3">
-    <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-        <div className="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
-        <a
-            className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
-            href="/"
-        >
-            Shelby De Oliveira Cignetti
-        </a>
-        <button
-            className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-            type="button"
-        >
-            <span className="block relative w-6 h-px rounded-sm bg-white"></span>
-            <span className="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
-            <span className="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
-        </button>
-        </div>
-        <div
-        className="lg:flex flex-grow items-center"
-        id="example-navbar-warning"
-        >
-        <ul className="flex flex-col lg:flex-row list-none ml-auto">
-            <li className="nav-item">
-            <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                href="Contact"
+function Navbar() {
+  return (
+    <nav className="navbar navbar-expand-sm navbar-light">
+      <Link to="/" className="navbar-brand">
+        Shelby De Oliveira Cignetti
+      </Link>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        // onClick={this.toggleMenu}
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul className="navbar-nav ml-auto">
+          <li className="nav-item">
+            <NavLink to="/about" className="nav-link" activeClassName="active">
+              About
+            </NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink
+              to="/contact"
+              className="nav-link"
+              activeClassName="active"
             >
-                Contact
-            </a>
-            </li>
-            <li className="nav-item">
-            <a
-                className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                href="Portfolio"
+              Contact
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/portfolio"
+              className="nav-link"
+              activeClassName="active"
             >
-                Portfolio
-            </a>
-            </li>
-            <li className="nav-item">
-            </li>
+              Portfolio
+            </NavLink>
+          </li>
         </ul>
-        </div>
-    </div>
+      </div>
     </nav>
-);
-};
+  );
+}
 
 export default Navbar;
