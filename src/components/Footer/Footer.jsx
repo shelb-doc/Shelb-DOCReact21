@@ -1,13 +1,33 @@
 import React from "react";
+import "./Footer.css";
 
-const Footer = () => {
-return (
-    <div>
-    <footer class="py-5 bg-gray-700 text-center text-white">
-        &copy; Shelby De Oliveira Cignetti 2021
+function Footer() {
+  return (
+    <footer>
+      <div className="footer-nav">&copy; Shelb-DOC 2021</div>
+      <a
+        href="mailto: shelbycignetti@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fas fa-envelope-square"></i>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/shelbycignetti/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-linkedin"></i>
+      </a>
+      <a
+        href="https://github.com/shelb-doc"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-github-square"></i>
+      </a>
     </footer>
-    </div>
-);
-};
+  );
+}
 
 export default Footer;
