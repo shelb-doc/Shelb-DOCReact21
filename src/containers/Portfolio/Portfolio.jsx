@@ -2,10 +2,10 @@ import React from "react";
 import "./Portfolio.css";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import projects from "../../projects.json";
-import comicImage from "../../assets/thumbnails/comicBookFinder.png";
-import footballImage from "../../assets/thumbnails/football-futbol.png";
-import quizImage from "../../assets/thumbnails/JavascriptDOM.png";
-import workImage from "../../assets/thumbnails/workday.png";
+// import comicImage from "../../assets/thumbnails/comicBookFinder.png";
+// import footballImage from "../../assets/thumbnails/football-futbol.png";
+// import quizImage from "../../assets/thumbnails/JavascriptDOM.png";
+// import workImage from "../../assets/thumbnails/workday.png";
 
 function Portfolio() {
   return (
