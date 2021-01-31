@@ -1,10 +1,50 @@
 [
 {
-    "id": 1,
+    "id": 0,
     "name": "Comicbook Finder",
     "image": "../assets/thumbnails/comicBookFinder.png",
     "alt": "'Life is never completely without challenges.” - Stan Lee'",
     "description": "A Comic Book Finder that is based off of a random number and some questions.",
     "link": "https://github.com/shelb-doc/ComicBook-Finder"
+},
+{
+    "id": 1,
+    "name": "Football or Futbol",
+    "image": "../assets/thumbnails/football-futbol.png",
+    "alt": "Football or Futbol",
+    "description": "We of course took inspiration from our love of the beautiful game and want a way to compare athletes of different sports. Realizing there is no application out there, why not build it ourselves.",
+    "link": "https://github.com/shelb-doc/football-or-futbol"
+},
+{
+    "id": 2,
+    "name": "Nom Nom Nom",
+    "image": "../assets/thumbnails/mimikyuBurger.png",
+    "alt": "Mimikyu Eat Da Burgers App",
+    "description": "JavaScript + JQuery application that utilizes the open weather API. Application stores user info upon button click to deliver the current and 5-day forecast for the inputted city. Previous searched city is saved as a button so the user can search the same city with ease.",
+    "link": "https://github.com/shelb-doc/Nom-Nom-Nom"
+},
+{
+    "id": 3,
+    "name": "Coding Quiz",
+    "image": "../assets/thumbnails/JavascriptDOM.png",
+    "alt": "Coding Quiz",
+    "description": "This is a Javascript Quiz made by using DOM's to update the questions and move to the highscore page.",
+    "link": "https://github.com/shelb-doc/javascript-API-quiz"
+},
+{
+    "id": 4,
+    "name": "WorkDay",
+    "image": "../assets/thumbnails/workday.png",
+    "alt": "Workday",
+    "description": "This 9 to 5 work day planner application was made using Jquery.",
+    "link": "https://github.com/shelb-doc/Work-Planner"
+},
+{
+    "id": 5,
+    "name": "Employee Directory",
+    "image": "../assets/thumbnails/comicBookFinder.png",
+    "alt": "Employee Directory",
+    "description": "Basic user directory built using React and a third party API.  App is able to sort and filter information.",
+    "link": "https://github.com/shelb-doc/team-rocket-employee"
 }
 ]
