@@ -2,7 +2,7 @@ import React from "react";
 // import { Link } from "react-router-dom";
 // import Footer from "../../components/Footer";
 // import assets from "../../../public/assets/portfolio-images";
-import "./Home.css";
+
 
 const Home = () => {
 return (
