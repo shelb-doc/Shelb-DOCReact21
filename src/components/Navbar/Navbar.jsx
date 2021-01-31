@@ -3,12 +3,12 @@ import { Link, NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
-  return (
+return (
     <nav className="navbar navbar-expand-sm navbar-light">
-      <Link to="/" className="navbar-brand">
+    <Link to="/" className="navbar-brand">
         Shelby De Oliveira Cignetti
-      </Link>
-      <button
+    </Link>
+    <button
         className="navbar-toggler"
         type="button"
         data-toggle="collapse"
@@ -17,38 +17,38 @@ function Navbar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
         // onClick={this.toggleMenu}
-      >
+    >
         <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
+        <li className="nav-item">
             <NavLink to="/about" className="nav-link" activeClassName="active">
-              About
+            About
             </NavLink>
-          </li>
-          <li className="nav-item">
+        </li>
+        <li className="nav-item">
             <NavLink
-              to="/contact"
-              className="nav-link"
-              activeClassName="active"
+            to="/contact"
+            className="nav-link"
+            activeClassName="active"
             >
-              Contact
+            Contact
             </NavLink>
-          </li>
-          <li>
+        </li>
+        <li>
             <NavLink
-              to="/portfolio"
-              className="nav-link"
-              activeClassName="active"
+            to="/portfolio"
+            className="nav-link"
+            activeClassName="active"
             >
-              Portfolio
+            Portfolio
             </NavLink>
-          </li>
+        </li>
         </ul>
-      </div>
+    </div>
     </nav>
-  );
+);
 }
 
 export default Navbar;
