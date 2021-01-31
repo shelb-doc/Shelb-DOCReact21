@@ -3,9 +3,9 @@ import "./Portfolio.css";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import projects from "../../projects.json";
 import trackImage from "../../assets/thumbnails/comicBookFinder.png";
-import seniorImage from "../../assets/portfolio-images/Senior-Travel-Covid-Care.gif";
-import quizImage from "../../assets/portfolio-images/CodingQuiz.png";
-import passwordImage from "../../assets/portfolio-images/Password-Generator.gif";
+import seniorImage from "../../assets/thumbnails/football-futbol.png";
+import quizImage from "../../assets/thumbnails/JavascriptDOM.png";
+import passwordImage from "../../assets/thumbnails/workday.png";
 
 function Portfolio() {
   return (
